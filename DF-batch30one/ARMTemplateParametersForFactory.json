@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DF-batch30one"
+		},
+		"LS_SQL_password": {
+			"value": ""
+		},
+		"LS_SQL_PARAM_password": {
+			"value": ""
+		},
+		"LS_blob_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_properties_typeProperties_server": {
+			"value": "sqlserverbatch30one.database.windows.net"
+		},
+		"LS_SQL_properties_typeProperties_database": {
+			"value": "sqlserverbatch31"
+		},
+		"LS_SQL_properties_typeProperties_userName": {
+			"value": "srujna"
+		},
+		"LS_SQL_PARAM_properties_typeProperties_server": {
+			"value": "sqlserverbatch31.database.windows.net"
+		},
+		"LS_SQL_PARAM_properties_typeProperties_database": {
+			"value": "@{linkedService().db_Name}"
+		},
+		"LS_SQL_PARAM_properties_typeProperties_userName": {
+			"value": "srujna"
+		}
+	}
+}
