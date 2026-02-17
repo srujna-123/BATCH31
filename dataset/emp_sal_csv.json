@@ -1,0 +1,33 @@
+{
+	"name": "emp_sal_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "root/Batch31/output",
+				"container": "ext-metastore"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "\u0000\u0000\u0000",
+				"type": "String"
+			},
+			{
+				"name": "ftypheic\u0000\u0000\u0000\u0000mif1MiHBMiHEMiPrmiafheictmap\u0000\u0000}Jmeta\u0000\u0000\u0000\u0000\u0000\u0000\u0000!hdlr\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pict\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000$dinf\u0000\u0000\u0000\u001cdref\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\furl \u0000\u0000\u0000\u0001\u0000\u0000\u0000\u000epitm\u0000\u0000\u0000\u0000\u0000.\u0000\u0000\u0005�iinf\u0000\u0000\u0000\u0000\u0000B\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0002\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0003\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0004\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0005\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0006\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\u0007\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\b\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000\t\u0000\u0000hvc1\u0000\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0001\u0000",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

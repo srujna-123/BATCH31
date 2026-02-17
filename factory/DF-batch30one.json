@@ -1,0 +1,9 @@
+{
+	"name": "DF-batch30one",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f406d1d7-ba97-494a-9040-be57d2b4ca0e",
+		"tenantId": "cd3616ca-55e8-4f94-b46c-15ac47d53cc3"
+	}
+}
