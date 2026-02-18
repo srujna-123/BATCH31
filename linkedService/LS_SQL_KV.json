@@ -1,0 +1,23 @@
+{
+	"name": "LS_SQL_KV",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlserverbatch30one.database.windows.net",
+			"database": "sqlserverbatch31",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "srujna",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "KV-ID-sqlpassword"
+			}
+		}
+	}
+}
