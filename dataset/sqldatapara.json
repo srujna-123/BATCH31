@@ -1,0 +1,33 @@
+{
+	"name": "sqldatapara",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_PARAM",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"db_Name": {
+					"value": "@dataset().dbo",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"dbo": {
+				"type": "string"
+			},
+			"tbl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().tbl",
+				"type": "Expression"
+			}
+		}
+	}
+}

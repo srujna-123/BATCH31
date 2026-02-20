@@ -1,0 +1,11 @@
+{
+	"name": "pipeline4",
+	"properties": {
+		"parameters": {
+			"input": {
+				"type": "int"
+			}
+		},
+		"annotations": []
+	}
+}
